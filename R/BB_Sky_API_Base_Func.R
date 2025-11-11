@@ -389,6 +389,30 @@ find_sky_api_docs <- function(api = "school") {
 
 # Main Function --------------------
 
+#' Title
+#'
+#' @param api_url
+#' @param url1
+#' @param url2
+#' @param url3
+#' @param url4
+#' @param url5
+#' @param limit
+#' @param offset
+#' @param page
+#' @param marker
+#' @param params
+#' @param testing
+#' @param no_format
+#' @param no_page
+#' @param method
+#' @param body
+#' @param ...
+#'
+#' @returns
+#'
+#' @export
+#' @examples
 bb_get_func <- function(
         api_url = bb_url_list$school, 
         url1 = NULL,
