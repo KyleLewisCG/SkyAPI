@@ -25,7 +25,12 @@ bb_get_func(
 )
 }
 \arguments{
+\item{api_url}{URL from bb_url_list like gl and school}
+
 \item{...}{}
+}
+\value{
+Returns a formatted table for a GET call
 }
 \description{
 Title

@@ -391,7 +391,7 @@ find_sky_api_docs <- function(api = "school") {
 
 #' Title
 #'
-#' @param api_url
+#' @param api_url URL from bb_url_list like gl and school
 #' @param url1
 #' @param url2
 #' @param url3
@@ -409,7 +409,7 @@ find_sky_api_docs <- function(api = "school") {
 #' @param body
 #' @param ...
 #'
-#' @returns
+#' @returns Returns a formatted table for a GET call
 #'
 #' @export
 #' @examples
